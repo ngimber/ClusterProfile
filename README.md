@@ -2,33 +2,34 @@
 
 ## Description
 
-ClusterProfile is a custom ImageJ script designed for automated analysis of radial intensity profiles around myosin clusters in microscopy images. This tool streamlines the identification and quantitative analysis of protein clusters, enabling users to efficiently measure and compare fluorescence intensity distributions. The script was used in Petzold et al. 2025 (DOI:) to analyze the spatial relationship of myosin and microtubules. 
+ClusterProfile is a custom ImageJ script designed for automated analysis of radial intensity profiles around myosin clusters in microscopy images. This tool streamlines the identification and quantitative analysis of protein clusters, enabling users to efficiently measure and compare fluorescence intensity distributions. The script was utilized in Petzold et al. 2025 (DOI: pending) to analyze the spatial relationship between myosin and microtubules.
 
 ## Features
 
 * **Automated Background Subtraction:** Uses ImageJ’s ‘Moments’ algorithm ([DOI](https://doi.org/10.1016/0734-189x%2885%2990133-1)) for robust background removal.
 * **Cluster Identification:** Employs the ‘Find Maxima’ function of ImageJ ([DOI](https://doi.org/10.1038/nmeth.2089)) to accurately locate myosin cluster centers.
-* **Radial Intensity Profiling:** Measures intensity profiles in multiple  channels around the detected cluster centers.
+* **Radial Intensity Profiling:** Measures intensity profiles in multiple channels around the detected cluster centers.
 
 ## Usage
 
-1. Load your microscopy images into ImageJ.
-2. Apply the ClusterProfile script.
-3. Adjust thresholding and maxima detection parameters as needed.
-4. Visualize and export radial intensity profiles for further analysis.
+1. Run the ClusterProfile script in ImageJ.
+2. Adjust thresholding and maxima detection parameters as needed via the GUI.
+3. Automatically export radial intensity profiles for further analysis.
+
+## GUI Preview
+
+![ClusterProfile GUI](https://github.com/ngimber/ClusterProfile/blob/main/ClusterProfile_GUI.PNG)
+
+## GUI Parameters Explained
+
+- **Reference channel:** Select which image channel to use as the reference for cluster detection.
+- **Clear background before analysis:** Enable automatic background subtraction before processing.
+- **Filter background noise:** Toggle noise filtering to remove small noise artifacts.
+- **Size of background noise:** Define the size threshold for noise removal.
+- **Tolerated remaining noise level:** Set the acceptable noise level after filtering.
+- **Radius:** Specify the radius around cluster centers to measure radial intensity profiles.
+- **Toroidal shift (negative control):** Define the shift applied for negative control measurements to validate results.
 
 ## Requirements
 
 * ImageJ/Fiji (latest version recommended).
-
-## Installation
-
-Clone this repository using:
-
-```bash
-git clone https://github.com/ngimber/ClusterProfile.git
-```
-
-## License
-
-This project is licensed under the MIT License.
