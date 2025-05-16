@@ -6,8 +6,8 @@ ClusterProfile is a custom ImageJ script designed for automated analysis of radi
 
 ## Features
 
-* **Automated Background Subtraction:** Uses ImageJ’s ‘Moments’ algorithm ([DOI](https://doi.org/10.1016/0734-189x%2885%2990133-1)) for robust background removal.
-* **Cluster Identification:** Employs the ‘Find Maxima’ function of ImageJ ([DOI](https://doi.org/10.1038/nmeth.2089)) to accurately locate myosin cluster centers.
+* **Automated Background Subtraction:** Uses ImageJ’s ‘Moments’ algorithm ([Moments](https://doi.org/10.1016/0734-189x%2885%2990133-1)) for robust background removal.
+* **Cluster Identification:** Employs the ‘Find Maxima’ function of ImageJ ([Find Maxima](https://doi.org/10.1038/nmeth.2089)) to accurately locate myosin cluster centers.
 * **Radial Intensity Profiling:** Measures intensity profiles in multiple channels around the detected cluster centers.
 
 ## Usage
