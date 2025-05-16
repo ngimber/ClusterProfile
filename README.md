@@ -1,4 +1,4 @@
-# ClusterProfile: Radial Intensity Profiles Analysis Tool For Nano-Clusters
+# ClusterProfile: Radial Intensity Profiles Analysis Tool For Protein Clusters
 
 ## Description
 
