@@ -2,7 +2,7 @@
 
 ## Description
 
-ClusterProfile is a custom ImageJ script designed for automated analysis of radial intensity profiles around myosin clusters in microscopy images. This tool streamlines the identification and quantitative analysis of protein clusters, enabling users to efficiently measure and compare fluorescence intensity distributions. The script was utilized in Petzold et al. 2025 (DOI: (https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fngimber%2FClusterProfile](https://doi.org/10.1083/jcb.202305059) to analyze the spatial relationship between myosin and microtubules.
+ClusterProfile is a custom ImageJ script designed for automated analysis of radial intensity profiles around myosin clusters in microscopy images. This tool streamlines the identification and quantitative analysis of protein clusters, enabling users to efficiently measure and compare fluorescence intensity distributions. The script was utilized in Petzold et al. 2025 (DOI: (https:/imber%2FClusterProfile](https://doi.org/10.1083/jcb.202305059) to analyze the spatial relationship between myosin and microtubules.
 
 ## Features
 
